@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A049C95CCEA9AD8413092A757E4F54AE848A41E5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A049C95CCEA9AD8413092A757E4F54AE848A41E5" : 0,
+    "FC2E3F6A3FD4DCC6A68FB65E29D40091F8951149" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E7F5E1CD-6B62-42F8-9C83-40804008EAA5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A049C95CCEA9AD8413092A757E4F54AE848A41E5" : "txt\/",
+    "FC2E3F6A3FD4DCC6A68FB65E29D40091F8951149" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "textTableview",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "textTableview.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kotoeymb\/txtTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A049C95CCEA9AD8413092A757E4F54AE848A41E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kotoeymb\/DatePicker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC2E3F6A3FD4DCC6A68FB65E29D40091F8951149"
+    }
+  ]
+}

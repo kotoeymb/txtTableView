@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentify2" rowHeight="184" id="KGk-i7-Jjw" customClass="Custom2TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3c-BL-BlH">
+                        <rect key="frame" x="38" y="13" width="73" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="459D #6A, New University Avenue Rd,.. Phone 12345667" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uJ-rt-g9T">
+                        <rect key="frame" x="38" y="42" width="323" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSg-zs-hsX">
+                        <rect key="frame" x="13" y="100" width="348" height="35"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="QYh-ec-mVE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Delivery Date">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="865-2a-pvv">
+                        <rect key="frame" x="301" y="145" width="60" height="30"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="PGt-4g-3wl"/>
+                            <constraint firstAttribute="width" constant="60" id="hfe-NH-AsQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Delete">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Radiobutton-choice.png" translatesAutoresizingMaskIntoConstraints="NO" id="N87-t1-eUJ">
+                        <rect key="frame" x="8" y="33" width="21" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="21" id="Enm-mU-mRJ"/>
+                            <constraint firstAttribute="height" constant="21" id="KBC-NA-2Lf"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRR-uE-8lc">
+                        <rect key="frame" x="13" y="145" width="60" height="30"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.5751885775862069" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="NzR-Es-A6b"/>
+                            <constraint firstAttribute="width" constant="60" id="ohk-6y-SHw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Edit">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="top" secondItem="v3c-BL-BlH" secondAttribute="bottom" constant="8" id="1jO-Nz-tO0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CSg-zs-hsX" secondAttribute="trailing" constant="30" id="1yT-YI-SWW"/>
+                    <constraint firstItem="v3c-BL-BlH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="6nP-vP-k74"/>
+                    <constraint firstItem="CSg-zs-hsX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="H2V-xo-jax"/>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="30" id="Hk3-DU-ZNM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7uJ-rt-g9T" secondAttribute="trailing" constant="30" id="Mqm-nU-RB6"/>
+                    <constraint firstItem="CSg-zs-hsX" firstAttribute="top" secondItem="7uJ-rt-g9T" secondAttribute="bottom" constant="10" id="NN7-jX-2Ml"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="865-2a-pvv" secondAttribute="trailing" constant="30" id="ONt-Um-HXS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="865-2a-pvv" secondAttribute="bottom" constant="5" id="U0c-b9-jiG"/>
+                    <constraint firstItem="TRR-uE-8lc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="WQq-6f-Bee"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="N87-t1-eUJ" secondAttribute="leading" constant="5" id="ZmS-w5-QWF"/>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="leading" secondItem="N87-t1-eUJ" secondAttribute="trailing" constant="9" id="gNV-6T-eXJ"/>
+                    <constraint firstItem="TRR-uE-8lc" firstAttribute="top" secondItem="CSg-zs-hsX" secondAttribute="bottom" constant="10" id="gfj-vl-uE5"/>
+                    <constraint firstItem="v3c-BL-BlH" firstAttribute="leading" secondItem="N87-t1-eUJ" secondAttribute="trailing" constant="9" id="jfd-Dj-6XW"/>
+                    <constraint firstItem="N87-t1-eUJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="krJ-GN-11Y"/>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="leading" secondItem="v3c-BL-BlH" secondAttribute="leading" id="q2q-v1-pVH"/>
+                    <constraint firstItem="865-2a-pvv" firstAttribute="top" secondItem="CSg-zs-hsX" secondAttribute="bottom" constant="10" id="uaC-Jv-Bxu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TRR-uE-8lc" secondAttribute="bottom" constant="5" id="vEn-ah-eF9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewImage" destination="N87-t1-eUJ" id="PSH-d4-Gvm"/>
+                <outlet property="labelText" destination="7uJ-rt-g9T" id="6PF-oE-WDQ"/>
+                <outlet property="labeltitle" destination="v3c-BL-BlH" id="pKQ-1I-L9t"/>
+            </connections>
+            <point key="canvasLocation" x="256.5" y="408"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Radiobutton-choice.png" width="20" height="20"/>
+    </resources>
+</document>
